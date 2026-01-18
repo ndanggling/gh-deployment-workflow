@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!-- Deployed with GitHub Actions CI/CD -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,8 +38,15 @@
         }
 
         @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         h1 {
@@ -52,9 +61,17 @@
         }
 
         @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
         }
 
         .subtitle {
@@ -91,8 +108,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
         }
 
         footer {
@@ -112,6 +136,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="icon">🚀</div>
@@ -126,4 +151,5 @@
         <p>Built with ❤️ using <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a></p>
     </footer>
 </body>
+
 </html>
